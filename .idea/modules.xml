@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/rocketmq-api/rocketmq-api.iml" filepath="$PROJECT_DIR$/rocketmq-api/rocketmq-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-shop/springboot-dubbo-shop.iml" filepath="$PROJECT_DIR$/springboot-dubbo-shop/springboot-dubbo-shop.iml" />
     </modules>
   </component>
 </project>

@@ -12,6 +12,7 @@
     <bytecodeTargetLevel>
       <module name="rocketmq-api" target="1.8" />
       <module name="rocketmq-console-ng" target="1.7" />
+      <module name="springboot-dubbo-shop" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

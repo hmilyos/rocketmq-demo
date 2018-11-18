@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-dubbo-shop:war">
+    <output-path>$PROJECT_DIR$/springboot-dubbo-shop/target</output-path>
+    <root id="archive" name="springboot-dubbo-shop.war">
+      <element id="artifact" artifact-name="springboot-dubbo-shop:war exploded" />
+    </root>
+  </artifact>
+</component>
