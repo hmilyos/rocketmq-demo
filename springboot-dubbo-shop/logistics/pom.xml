@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>store</artifactId>
+	<artifactId>logistics</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>store</name>
+	<name>logistics</name>
 	<description>Demo project for Spring Boot</description>
 
     <parent>
@@ -16,7 +16,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <dependencies>
+
+	<dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -65,14 +66,14 @@
             <version>${dubbo.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.hmily.rocketmq</groupId>
-            <artifactId>store-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>${rocketmq.version}</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>store</finalName>
+        <finalName>bfxy-pkg</finalName>
         <!-- 打包时包含properties、xml -->
         <resources>
             <resource>
@@ -102,7 +103,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.hmily.rocketmq.store.StoreApplication</mainClass>
+                    <mainClass>com.hmily.rocketmq.logistics.LogisticsApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -73,5 +73,8 @@
     <modules>
         <module>order</module>
         <module>store</module>
+        <module>pay-customer</module>
+        <module>pay-seller</module>
+        <module>logistics</module>
     </modules>
 </project>
