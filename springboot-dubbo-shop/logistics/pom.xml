@@ -73,7 +73,7 @@
     </dependencies>
 
     <build>
-        <finalName>bfxy-pkg</finalName>
+        <finalName>logistics</finalName>
         <!-- 打包时包含properties、xml -->
         <resources>
             <resource>
